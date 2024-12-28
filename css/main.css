@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 98%);
+    font-family: "Red Hat Display", serif;
+}
+
+.container {
+    max-width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: white;
+}
+
+.order {
+    padding: 1.5rem 1.5rem;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+h1 {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 800;
+}
+
+.description {
+    font-size: 0.9rem;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+    margin: 1em 0;
+    padding: 0 1.1em;
+}
+
+.plan {
+    display: flex;
+    margin: 1.5em 0;
+    background-color: hsl(225, 100%, 98%);
+    padding: 0.8em 0.75em;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan p {
+    font-size: 0.8rem;
+}
+
+span {
+    justify-self: flex-end;
+    font-size: 0.75rem;
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+span:hover {
+    color: hsl(245, 75%, 70%);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.anual {
+    display: inline;
+    margin-right: 2em;
+}
+
+.anual p:first-child {
+    font-weight: 800;
+    margin-bottom: 0.2em;
+}
+
+.anual p:last-child {
+    color: hsl(224, 23%, 55%);
+}
+
+button {
+    display: block;
+    margin: 1.5em auto;
+    padding: 1em 0;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+    box-shadow: 0 20px 10px 5px hsl(225, 100%, 98%);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(245, 75%, 70%);
+}
+
+.cancel {
+    font-size: 0.8rem;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+
+.cancel:hover {
+    cursor: pointer;
+    color: black;
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+        background-size: cover;
+        background-position: top;
+    }
+
+    .container {
+        max-width: 380px;
+    }
+}
