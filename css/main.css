@@ -49,12 +49,13 @@ h1 {
 }
 
 .plan {
+    position: relative;
     display: flex;
     margin: 1.5em 0;
     background-color: hsl(225, 100%, 98%);
     padding: 0.8em 0.75em;
     border-radius: 10px;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -62,28 +63,28 @@ h1 {
     font-size: 0.8rem;
 }
 
-span {
-    justify-self: flex-end;
+a {
+    position: absolute;
+    right: 0;
     font-size: 0.75rem;
-    color: darkblue;
     font-weight: bold;
-    text-decoration: underline;
+    margin-right: 1em;
 }
 
-span:hover {
+a:hover {
     color: hsl(245, 75%, 70%);
     cursor: pointer;
     text-decoration: none;
 }
 
 .anual {
-    display: inline;
-    margin-right: 2em;
+    margin-left: 1em;
 }
 
 .anual p:first-child {
     font-weight: 800;
     margin-bottom: 0.2em;
+
 }
 
 .anual p:last-child {
