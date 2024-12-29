@@ -15,13 +15,13 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./images/Screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-component-Apdwo9bQDA)
+- Live Site URL: [Live site](https://et-coder.github.io/order-summary/)
 
 ## My process
 
@@ -32,5 +32,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - Flexbox
 - Mobile-first workflow
 
+## Author
 
-
+- Website - [Natnael Dejene](https://github.com/et-coder)
+- Frontend Mentor - [@et-coder](https://www.frontendmentor.io/profile/et-coder)
