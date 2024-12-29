@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    max-width: 350px;
+    width: 320px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -130,6 +130,6 @@ button:hover {
     }
 
     .container {
-        max-width: 380px;
+        width: 380px;
     }
 }
